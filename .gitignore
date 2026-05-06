@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+.ruff_cache/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# SPL data (large bulk downloads)
+data/spl/
