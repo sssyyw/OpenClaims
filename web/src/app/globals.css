@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  /* Backgrounds */
+  --bg: #f9fafb;
+  --surface: #ffffff;
+  --surface-secondary: #f3f4f6;
+
+  /* Text */
+  --text: #111827;
+  --text-muted: #6b7280;
+  --text-faint: #9ca3af;
+
+  /* Borders */
+  --border: #e5e7eb;
+  --border-strong: #d1d5db;
+
+  /* Brand / interaction */
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+
+  /* Status */
+  --status-supported: #059669;
+  --status-partial: #2563eb;
+  --status-review: #d97706;
+  --status-unsupported: #dc2626;
+
+  /* Fonts */
+  --font-document: Georgia, "Times New Roman", serif;
+  --font-ui: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-citation: ui-monospace, "Cascadia Code", "Fira Code", monospace;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-secondary: var(--surface-secondary);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-text-faint: var(--text-faint);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-supported: var(--status-supported);
+  --color-partial: var(--status-partial);
+  --color-review: var(--status-review);
+  --color-unsupported: var(--status-unsupported);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
