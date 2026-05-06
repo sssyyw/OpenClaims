@@ -1,6 +1,5 @@
 # FDA Claims Intelligence
 
-MLR Review Assistant -- claim-by-claim validation of promotional materials against FDA-approved drug labels.
 
 ## Quick Start
 
