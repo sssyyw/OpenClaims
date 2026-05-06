@@ -1,4 +1,4 @@
-# FDA Claims Intelligence
+# Open Drug Claims Platform
 
 
 ## Quick Start
